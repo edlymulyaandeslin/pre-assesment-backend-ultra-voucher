@@ -1,0 +1,1 @@
+SELECT c.id, c.name, p.name AS parent_name FROM c JOIN p ON c.parent_id = p.id
